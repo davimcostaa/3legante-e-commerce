@@ -1,0 +1,28 @@
+.mySwiper .swiper-button-next,
+.swiper-button-prev {
+    color : white;
+}
+
+.mySwiper .swiper-button-prev {
+    background-image: url('../../../public/carrousel/left.svg') !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    width: 50px;
+}
+
+.mySwiper .swiper-button-next {
+    background-image: url('../../../public/carrousel/right.svg') !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    width: 50px;
+}
+
+.swiper-button-next::after {
+    display: none;
+}
+    
+    .swiper-button-prev::after {
+    display: none;
+}

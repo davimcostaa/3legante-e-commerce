@@ -16,7 +16,7 @@ module.exports = {
         gray: '#E8ECEF',
       },
       backgroundImage: {
-        'header': "url('../public/header/hero.jpg')",
+        'card': "url('/cards/chair.svg')"
       },
     },
   },

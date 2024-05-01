@@ -6,7 +6,7 @@ import MobileNav from './MobileNav';
 
 const NavBar = () => {
   return (
-    <nav className='w-full flex h-[64px] lg:pl-[160px] lg:pr-[160px] lg:justify-around justify-around items-center '>
+    <nav className='w-full flex h-[64px] lg:pl-[160px] lg:pr-[160px] lg:justify-between justify-around items-center '>
 
         <MobileNav />
    
@@ -14,7 +14,6 @@ const NavBar = () => {
             <Image src='/logo.svg' width='105' height='24' />
         </Link>
         
-
             <div className='gap-9 hidden xl:flex'>
                 <Link href={'/'} className='text-neutral font-medium text-sm'> 
                     Home
