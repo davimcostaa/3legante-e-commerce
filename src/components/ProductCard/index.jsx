@@ -5,7 +5,7 @@ import Tag from './Tag'
 
 const ProductCard = ({image, productTitle, price}) => {
   return (
-    <div className='w-[262px] h-[433px]'>
+    <div className='w-[231px] h-[308px] lg:w-[262px] lg:h-[433px]'>
 
         <Tag />
         <div className='relative z-10 group' >
@@ -14,8 +14,6 @@ const ProductCard = ({image, productTitle, price}) => {
                 <Button text='Add to cart' />
             </div>
         </div>
-
-
 
         <div className='flex flex-col gap-1 pt-2'>
             <Image src={'/cards/stars.svg'} width={88} height={16} />  

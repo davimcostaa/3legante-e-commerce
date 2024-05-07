@@ -1,0 +1,27 @@
+[
+    {
+        "image": "couch",
+        "productTitle": "Loveseat Sofa",
+        "price": "199.00"
+    },
+    {
+        "image": "lamp",
+        "productTitle": "Table Lamp",
+        "price": "24.00"
+    },
+    {
+        "image": "table-lamp",
+        "productTitle": "Beige Table Lamp",
+        "price": "29.00"
+    },
+    {
+        "image": "basket",
+        "productTitle": "Bamboo Baskrt",
+        "price": "45.00"
+    },
+    {
+        "image": "toaster",
+        "productTitle":  "Toaster",
+        "price": "99.00"
+    }
+]

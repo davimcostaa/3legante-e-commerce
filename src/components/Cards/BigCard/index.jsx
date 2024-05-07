@@ -6,7 +6,7 @@ const BigCard = () => {
   return (
     <div>
         <div className='absolute ml-10 mt-10'>
-            <p className='font-medium text-3xl'>Living Room</p>
+            <p className='font-medium  text-2xl md:text-3xl'>Living Room</p>
             <Link href='/' className='text-neutral text-xs font-semibold border-b-2 border-neutral'> Shop Now &#8594; </Link>
         </div>
 

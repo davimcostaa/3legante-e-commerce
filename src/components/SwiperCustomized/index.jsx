@@ -9,6 +9,7 @@ import { Pagination, Navigation } from 'swiper/modules';
 import Image from 'next/image';
 
 import './styles.css';
+
 const SwiperCustomized = () => {
   return (
     <div className='ml-[32px] mr-[32px] lg:ml-[160px] lg:mr-[160px]'>

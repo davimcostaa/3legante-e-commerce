@@ -14,6 +14,9 @@ module.exports = {
         orange: '#FFAB00',
         neutral: '#141718',
         gray: '#E8ECEF',
+        secondaryGray: '#F3F5F7',
+        darkGray: '#6C7275'
+
       },
       backgroundImage: {
         'card': "url('/cards/chair.svg')"
